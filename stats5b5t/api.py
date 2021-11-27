@@ -7,8 +7,22 @@ def checkvalid(apicall):
 class Statistics:
 
     def request(self, user):
-        req = requests.get(f"https://api.2b2tlarp.org/user/stats/{(user)}").json()
-        return req
+        try:
+            req = requests.get(f"https://api.2b2tlarp.org/user/stats/{(user)}").json()
+            return req
+        except:
+            print("""
+-----------------------
+Critical Library error.
+Err: Module API; class Statistics in function 'request'
+An error occurred in the Library.
+This is not a bug in your code.
+Please open an issue on the github repository.
+Sorry for the inconvenience.
+-----------------------
+
+""")
+        
 
     def raw(self, apicall):
         return apicall
