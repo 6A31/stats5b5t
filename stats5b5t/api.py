@@ -22,7 +22,7 @@ Sorry for the inconvenience.
 -----------------------
 
 """)
-        
+            return None
 
     def raw(self, apicall):
         return apicall
