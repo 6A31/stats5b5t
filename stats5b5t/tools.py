@@ -19,4 +19,4 @@ class Debugging:
         if apicall.get("err") != None:
             return f'{apicall["err"]}'
         else:
-            return "No error message provided. Json response is valid" 
+            return "No error message provided. JSON response is valid" 
