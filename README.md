@@ -6,6 +6,7 @@ API wrapper for 5b5t's statistics
 > **Tested on: [Python 3.9](https://www.python.org/downloads/release/python-390)**
 
 ## [Documentaition](https://github.com/ScobraScope/stats5b5t-documentaition)
+
 You can find a detailed documentaition [here](https://github.com/ScobraScope/stats5b5t-documentaition)
 
 ## Usage
