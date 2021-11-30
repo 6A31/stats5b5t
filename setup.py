@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.1.0' 
 DESCRIPTION = 'API Wrapper for 5b5t.org'
 LONG_DESCRIPTION = 'Automate and simplify api requests  for 5b5t.org'
 
