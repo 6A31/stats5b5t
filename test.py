@@ -6,6 +6,8 @@ tests = tools.Debugging()
 
 r = stats.request("4205f31069a84e42bff88d4b07e09253")
 
+print(stats.raw(r))
+
 print(stats.ratio(r))
 print(tests.errmsg(r))
 

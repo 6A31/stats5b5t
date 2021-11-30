@@ -5,8 +5,8 @@ API wrapper for 5b5t's statistics
 
 > **Tested on: [Python 3.9](https://www.python.org/downloads/release/python-390)**
 
-## Documentaition
-[Coming soon](https://placeholder.com)
+## [Documentaition](https://github.com/ScobraScope/stats5b5t-documentaition)
+You can find a detailed documentaition [here](https://github.com/ScobraScope/stats5b5t-documentaition)
 
 ## Usage
 ```py
@@ -14,7 +14,7 @@ from stats5b5t import api
 
 stats = api.Statistics()
 
-r = stats.request("uuidhere")
+r = stats.request("uuid here")
 
 print(stats.kills(r))
 ```
@@ -44,3 +44,6 @@ Handles requests and data sorting for you.
 > **tools**
 
 Handles debugging and checks for you.
+
+## Updates
+I will update this from time to time to add new features, and i will for sure update it whenever there are API changes to stay up to date.
