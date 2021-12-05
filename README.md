@@ -36,6 +36,20 @@ print(tests.missmatch(r))
 print(tests.errmsg(r))
 ```
 
+**Username instead of UUID**
+
+```py
+from stats5b5t import api
+
+stats = api.Statistics()
+
+uuid = stats.getuuid("playername")
+r = stats.request(uuid)
+
+print(stats.deaths(r))
+```
+
+
 ## Modules: api, tools
 
 > **api**
