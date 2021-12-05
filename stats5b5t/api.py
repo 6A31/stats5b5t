@@ -24,6 +24,13 @@ Sorry for the inconvenience.
 """)
             return None
 
+    def getuuid(self, username):
+        try:
+            r = requests.get(f"https://api.mojang.com/users/profiles/minecraft/{username}").json()
+            return r["id"]
+        except:
+            return None
+
     def raw(self, apicall):
         return apicall
 
